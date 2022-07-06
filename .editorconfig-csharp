@@ -142,6 +142,11 @@ csharp_preserve_single_line_blocks = true
 csharp_preserve_single_line_statements = false
 
 ## Naming conventions
+
+
+# RCS1194: Implement exception constructors.
+dotnet_diagnostic.RCS1194.severity = suggestion
+
 [*.{cs,vb}]
 
 ## Naming styles
